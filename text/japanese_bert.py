@@ -2,7 +2,9 @@ import torch
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 import sys
 
-tokenizer = AutoTokenizer.from_pretrained("C:\\Users\\1016537351\\Desktop\\bert-vits2\\bert\\bert-base-japanese-v3")
+tokenizer = AutoTokenizer.from_pretrained(
+    "C:\\Users\\1016537351\\Desktop\\bert-vits2\\bert\\bert-base-japanese-v3"
+)
 
 models = dict()
 

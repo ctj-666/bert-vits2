@@ -542,7 +542,9 @@ def distribute_phone(n_phone, n_word):
     return phones_per_word
 
 
-tokenizer = AutoTokenizer.from_pretrained("C:\\Users\\1016537351\\Desktop\\bert-vits2\\bert\\bert-base-japanese-v3")
+tokenizer = AutoTokenizer.from_pretrained(
+    "C:\\Users\\1016537351\\Desktop\\bert-vits2\\bert\\bert-base-japanese-v3"
+)
 
 
 def g2p(norm_text):
